@@ -25,6 +25,10 @@ La aplicación en React se conecta con los servicios REST del backend, enviando 
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
 <img src="https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white" alt="NPM">
 </div>
+<br>
+
+- Descargar el proyecto en backend : [https://github.com/mfletesg/exam-java](https://github.com/mfletesg/exam-java)
+<br>
 
 ## Pasos para ejecutar el proyecto en React
 ## Requisitos Previos
@@ -39,11 +43,10 @@ Asegúrate de tener instalados los siguientes programas:
 Clona el repositorio del proyecto desde el control de versiones (por ejemplo, GitHub):
 
   ```bash
-  git clone <URL_DEL_REPOSITORIO>
-  cd <NOMBRE_DEL_DIRECTORIO>
+git clone https://github.com/mfletesg/exam-frontend.git
   ```
 
-### 2. Clonar el repositorio
+### 2. Instalar dependencias
 Navega al directorio del proyecto y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
   ```bash
 npm install
@@ -65,4 +68,4 @@ Abre tu navegador web y navega a http://localhost:5173 para ver la aplicación e
 ### 5. Ejecutar el servidor de desarrollo
 Antes de probar todas las funcionalidades de la interfaz, asegúrate de que el backend en Spring Boot esté corriendo y disponible en la URL configurada en las variables de entorno (http://localhost:8080 en el ejemplo).
 
-El proyecto en BackEnd se puede descargar aqui: https://github.com/mfletesg/exam-java# exam-frontend
+El proyecto en BackEnd se puede descargar aqui: https://github.com/mfletesg/exam-java exam-frontend
